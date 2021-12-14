@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape>
+            <!--mau nen button-->
+            <solid android:color="#FFFFFF"></solid>
+
+            <!--tao vien-->
+            <stroke android:width="2dp"
+                android:color="#858585">
+            </stroke>
+
+            <!--bo tron-->
+            <corners android:radius="15dp"></corners>
+            <!--            <gradient android:centerColor="@color/purple_700"/>-->
+        </shape>
+    </item>
+</selector>
