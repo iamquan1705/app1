@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="false">
         <shape>
             <!--mau nen button-->
-            <solid android:color="#A6C6D5"></solid>
+            <solid android:color="#FFFFFF"></solid>
 
             <!--tao vien-->
             <stroke android:width="2dp"
-                android:color="#C6C6C6">
+                android:color="#858585">
             </stroke>
 
             <!--bo tron-->
@@ -15,4 +15,5 @@
             <!--            <gradient android:centerColor="@color/purple_700"/>-->
         </shape>
     </item>
-</selector>
+    <item android:drawable="@drawable/ic_baseline_add_24"/>
+</layer-list>

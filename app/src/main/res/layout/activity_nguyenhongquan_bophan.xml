@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DAAAAA"
+    android:paddingHorizontal="20dp"
+    tools:context=".activity.Nguyenhongquan_ActivityBophan">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="BỘ PHÂN NHÂN SỰ CÔNG TY"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:background="@drawable/vien"
+            android:layout_gravity="center"
+            />
+
+        <android.widget.Button
+            android:id="@+id/btnThemBoPhan"
+            android:background="@drawable/bachground_buttonadd"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            />
+
+        <ListView
+            android:id="@+id/lvBoPhan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            />
+
+</LinearLayout>

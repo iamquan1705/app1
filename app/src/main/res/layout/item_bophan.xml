@@ -4,15 +4,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/background_item"
     android:layout_height="80dp">
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/background_groupmain"
+        android:layout_marginLeft="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        />
 
     <TextView
         android:id="@+id/tvTenBoPhan"
@@ -21,6 +25,7 @@
         android:text="Tên Bộ Phận:"
         android:textAllCaps="true"
         android:textSize="17dp"
+        android:textColor="#ffffff"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         android:layout_marginLeft="20dp"
@@ -32,6 +37,7 @@
         android:layout_height="wrap_content"
         android:text="Ghi chú:"
         android:textAllCaps="true"
+        android:textColor="#ffffff"
         android:textSize="17dp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="@id/tvTenBoPhan"

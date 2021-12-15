@@ -1,29 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_main"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnBoPhan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bộ phận"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quản lý nhân sự"
+            android:textAllCaps="true"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:padding="40dp"
+            android:background="@drawable/background_vien1"
+            android:textColor="#070707"
+            android:layout_marginBottom="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnBoPhan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <android.widget.Button
+            android:id="@+id/btnBoPhan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Bộ phận"
+            android:paddingTop="70dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/background_groupmain"
+      />
 
-    <Button
-        android:id="@+id/btnNhanVien"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Nhân Viên"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBoPhan" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <android.widget.Button
+            android:id="@+id/btnNhanVien"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Nhân Viên"
+            android:paddingTop="70dp"
+            android:background="@drawable/background_nhanvienmain" />
+        </LinearLayout>
+        <android.widget.Button
+            android:id="@+id/btnDangXuat"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:text="Đăng xuất"
+            android:background="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnBoPhan" />
+    </LinearLayout>

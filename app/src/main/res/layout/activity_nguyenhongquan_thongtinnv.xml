@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity.Nguyenhongquan_ActivityThongtinnv">
+    <LinearLayout
+        android:layout_width="400dp"
+        android:orientation="vertical"
+        android:background="@drawable/vien3"
+        android:layout_height="700dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thông tin nhân viên"
+            android:textAllCaps="true"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgAnhInfo"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/avatar" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content">
+                <android.widget.Button
+                    android:id="@+id/btnCameraSua"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:background="#000000"
+                    android:text="Camera"
+                    android:visibility="gone"
+                    android:textColor="#ffffff" />
+
+                <android.widget.Button
+                    android:id="@+id/btnLibrarySua"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:background="#000000"
+                    android:text="Thư viện"
+                    android:visibility="gone"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+        <android.widget.Button
+            android:id="@+id/btnSuaInFo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:background="#C71919"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mã nhân viên">
+
+            <EditText
+                android:id="@+id/edtMaNhanVienInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+                android:enabled="false"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/vien1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên nhân viên">
+
+            <EditText
+                android:id="@+id/edtTenNhanVienInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:enabled="false"
+                android:textColor="@color/black"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/vien1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày sinh">
+
+            <EditText
+                android:id="@+id/edtNgaySinhInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:enabled="false"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/vien1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Điện thoại">
+
+            <EditText
+                android:id="@+id/edtDienThoaiInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:enabled="false"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/vien1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chức vụ">
+
+            <EditText
+                android:id="@+id/edtChucVuInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:enabled="false"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/vien1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bộ phận : "
+                android:textSize="30dp"
+                />
+            <Spinner
+                android:id="@+id/spnTenBoPhanInfo"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="@drawable/vien1"
+                android:layout_marginLeft="20dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <android.widget.Button
+                android:id="@+id/btnSuaNhanVienInfo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:text="Sửa"
+                android:visibility="gone"
+                android:textColor="#ffffff" />
+
+            <android.widget.Button
+                android:id="@+id/btnThoatNhanVienInfo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#000000"
+                android:text="Thoát"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

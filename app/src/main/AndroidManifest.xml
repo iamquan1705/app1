@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.iamquan.qlnhansu">
+    package="com.NguyenHongQuan.qlns">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -11,14 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QLNhanSu">
-        <activity android:name=".activity.NhanvienmainActivity"></activity>
-        <activity android:name=".activity.ThongtinnvActivity" />
-        <activity android:name=".activity.AddnhanvienActivity" />
-        <activity android:name=".activity.NhanvienbpActivity" />
-        <activity android:name=".activity.EditbophanActivity" />
-        <activity android:name=".activity.AddbophanActivity" />
-        <activity android:name=".activity.BophanActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityNhanvienmain"></activity>
+        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityThongtinnv" />
+        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityThemnhanvien" />
+        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityNhanvienbp" />
+        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivitySuabophan" />
+        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityThembophan" />
+        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityBophan" />
+        <activity android:name="com.NguyenHongQuan.qlns.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
