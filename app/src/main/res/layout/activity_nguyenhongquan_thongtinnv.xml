@@ -64,11 +64,14 @@
         </LinearLayout>
         <android.widget.Button
             android:id="@+id/btnSuaInFo"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="end"
-            android:background="#C71919"
+            android:background="@drawable/background_sua"
+            android:text="Sửa"
+            android:paddingTop="32dp"
             android:textStyle="bold"
+            android:textSize="10dp"
             android:layout_marginRight="20dp"
             />
         <com.google.android.material.textfield.TextInputLayout
