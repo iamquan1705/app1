@@ -10,6 +10,7 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SearchView;
+import android.widget.TextView;
 
 import com.NguyenHongQuan.qlns.R;
 import com.NguyenHongQuan.qlns.adapter.Nguyenhongquan_NhanvienAdapter;
@@ -24,6 +25,7 @@ public class Nguyenhongquan_ActivityNhanvienmain extends AppCompatActivity {
     private SearchView svNhanVienMain;
     private ListView lvNhanVienMain;
     private FloatingActionButton btnThemNhanVienMain;
+    private TextView tvTongSoMain;
     private List<Nguyenhongquan_Nhanvien> nvList;
     private Nguyenhongquan_NhanvienAdapter nhanVienAdapter;
     private Nguyenhongquan_NhanvienDao dao;
@@ -36,6 +38,7 @@ public class Nguyenhongquan_ActivityNhanvienmain extends AppCompatActivity {
         nvList = new ArrayList<>();
         dao = new Nguyenhongquan_NhanvienDao(this);
         nvList = dao.DanhSachSinhVienMain();
+        tvTongSoMain.setText("Tổng số : "+nvList.size() + " nhân viên");
         nhanVienAdapter = new Nguyenhongquan_NhanvienAdapter(this,nvList);
         lvNhanVienMain.setAdapter(nhanVienAdapter);
 
@@ -119,5 +122,6 @@ public class Nguyenhongquan_ActivityNhanvienmain extends AppCompatActivity {
         svNhanVienMain = findViewById(R.id.svNhanVienMain);
         lvNhanVienMain = findViewById(R.id.lvNhanVienMain);
         btnThemNhanVienMain = findViewById(R.id.btnThemNhanVienMain);
+        tvTongSoMain = findViewById(R.id.tvTongSoMain);
     }
 }

@@ -11,19 +11,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QLNhanSu">
-        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityNhanvienmain"></activity>
-        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityThongtinnv" />
-        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityThemnhanvien" />
-        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityNhanvienbp" />
-        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivitySuabophan" />
-        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityThembophan" />
-        <activity android:name="com.NguyenHongQuan.qlns.activity.Nguyenhongquan_ActivityBophan" />
-        <activity android:name="com.NguyenHongQuan.qlns.MainActivity">
+        <activity
+            android:name=".activity.Nguyenhongquan_ActitivityDangnhap"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".activity.Nguyenhongquan_ActivityNhanvienmain" />
+        <activity android:name=".activity.Nguyenhongquan_ActivityThongtinnv" />
+        <activity android:name=".activity.Nguyenhongquan_ActivityThemnhanvien" />
+        <activity android:name=".activity.Nguyenhongquan_ActivityNhanvienbp" />
+        <activity android:name=".activity.Nguyenhongquan_ActivitySuabophan" />
+        <activity android:name=".activity.Nguyenhongquan_ActivityThembophan" />
+        <activity android:name=".activity.Nguyenhongquan_ActivityBophan" />
+        <activity android:name=".MainActivity">
         </activity>
     </application>
 

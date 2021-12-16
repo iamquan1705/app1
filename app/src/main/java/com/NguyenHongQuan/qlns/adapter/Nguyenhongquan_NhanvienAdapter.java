@@ -73,7 +73,7 @@ public class Nguyenhongquan_NhanvienAdapter extends BaseAdapter {
 
         Nguyenhongquan_Nhanvien nv = NVList.get(position);
         viewHolder.tvMaNhanVien.setText("Mã nhân viên : " + nv.getMaNhanVien());
-        viewHolder.tvTenNhanVienItem.setText("Tên nhân viên: " + nv.getTenNhanVien());
+        viewHolder.tvTenNhanVienItem.setText(nv.getTenNhanVien());
         viewHolder.tvChucVuNhanVienItem.setText("Chức vụ : " + nv.getChucVu());
 
         Bitmap bitmap = BitmapFactory.decodeByteArray(nv.getAnh(), 0, nv.getAnh().length);

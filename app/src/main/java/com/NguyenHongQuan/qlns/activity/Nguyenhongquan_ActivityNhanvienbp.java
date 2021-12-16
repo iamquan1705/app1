@@ -26,7 +26,7 @@ public class Nguyenhongquan_ActivityNhanvienbp extends AppCompatActivity {
     private FloatingActionButton btnThemNhanVienBP;
     private SearchView svNhanVienBP;
     private ListView lvNhanVienBP;
-    private TextView tvTieuDeNhanVienBP;
+    private TextView tvTieuDeNhanVienBP,tvTongSoBP;
     private Nguyenhongquan_NhanvienDao dao;
     private List<Nguyenhongquan_Nhanvien> nvList;
     private Nguyenhongquan_NhanvienAdapter nhanVienAdapter;
@@ -46,6 +46,7 @@ public class Nguyenhongquan_ActivityNhanvienbp extends AppCompatActivity {
         tvTieuDeNhanVienBP.setText("Danh sách nhân viên bộ phận " + tenBoPhan);
         dao = new Nguyenhongquan_NhanvienDao(this);
         nvList = dao.DanhSachNhanVien(mabp);
+        tvTongSoBP.setText("Tổng số : "+nvList.size() + " nhân viên");
         nhanVienAdapter = new Nguyenhongquan_NhanvienAdapter(this, nvList);
         lvNhanVienBP.setAdapter(nhanVienAdapter);
         registerForContextMenu(lvNhanVienBP);
@@ -127,6 +128,7 @@ public class Nguyenhongquan_ActivityNhanvienbp extends AppCompatActivity {
         svNhanVienBP = findViewById(R.id.svNhanVienBP);
         lvNhanVienBP = findViewById(R.id.lvNhanVienBP);
         tvTieuDeNhanVienBP = findViewById(R.id.tvTieuDeNhanVienBP);
+        tvTongSoBP = findViewById(R.id.tvTongSoBP);
     }
 
 }

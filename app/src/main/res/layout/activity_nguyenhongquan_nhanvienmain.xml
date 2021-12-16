@@ -23,7 +23,7 @@
         android:background="@drawable/background_vien1"
         android:layout_height="50dp"/>
     <TextView
-        android:id="@+id/tvTongSo"
+        android:id="@+id/tvTongSoMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tổng số : 20 nhân viên"
