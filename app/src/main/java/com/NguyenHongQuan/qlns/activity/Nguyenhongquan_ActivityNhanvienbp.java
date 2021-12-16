@@ -17,12 +17,13 @@ import com.NguyenHongQuan.qlns.adapter.Nguyenhongquan_NhanvienAdapter;
 import com.NguyenHongQuan.qlns.dao.Nguyenhongquan_BophanDao;
 import com.NguyenHongQuan.qlns.dao.Nguyenhongquan_NhanvienDao;
 import com.NguyenHongQuan.qlns.model.Nguyenhongquan_Nhanvien;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Nguyenhongquan_ActivityNhanvienbp extends AppCompatActivity {
-    private Button btnThemNhanVienBP;
+    private FloatingActionButton btnThemNhanVienBP;
     private SearchView svNhanVienBP;
     private ListView lvNhanVienBP;
     private TextView tvTieuDeNhanVienBP;

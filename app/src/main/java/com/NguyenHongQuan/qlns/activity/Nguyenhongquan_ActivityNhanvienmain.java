@@ -15,6 +15,7 @@ import com.NguyenHongQuan.qlns.R;
 import com.NguyenHongQuan.qlns.adapter.Nguyenhongquan_NhanvienAdapter;
 import com.NguyenHongQuan.qlns.dao.Nguyenhongquan_NhanvienDao;
 import com.NguyenHongQuan.qlns.model.Nguyenhongquan_Nhanvien;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +23,7 @@ import java.util.List;
 public class Nguyenhongquan_ActivityNhanvienmain extends AppCompatActivity {
     private SearchView svNhanVienMain;
     private ListView lvNhanVienMain;
-    private Button btnThemNhanVienMain;
+    private FloatingActionButton btnThemNhanVienMain;
     private List<Nguyenhongquan_Nhanvien> nvList;
     private Nguyenhongquan_NhanvienAdapter nhanVienAdapter;
     private Nguyenhongquan_NhanvienDao dao;

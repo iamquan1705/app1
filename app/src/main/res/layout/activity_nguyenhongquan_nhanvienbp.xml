@@ -18,7 +18,7 @@
         android:layout_height="50dp"/>
 
 
-    <androidx.appcompat.widget.SearchView
+    <android.widget.SearchView
         android:id="@+id/svNhanVienBP"
         android:layout_width="match_parent"
         app:iconifiedByDefault="false"

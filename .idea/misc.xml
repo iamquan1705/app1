@@ -6,6 +6,7 @@
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/drawable/bachground_buttonadd.xml" value="0.3828125" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/drawable/background_button.xml" value="0.3828125" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/drawable/background_groupmain.xml" value="0.3828125" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/drawable/background_image.xml" value="0.3828125" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/drawable/background_item.xml" value="0.3828125" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/drawable/background_main.xml" value="0.3828125" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/drawable/background_nhanvienmain.xml" value="0.3828125" />
@@ -16,8 +17,13 @@
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/activity_main.xml" value="0.2807971014492754" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/activity_nguyenhongquan_bophan.xml" value="0.25" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/activity_nguyenhongquan_nhanvienbp.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/activity_nguyenhongquan_nhanvienmain.xml" value="0.27445652173913043" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/activity_nguyenhongquan_suabophan.xml" value="0.2807971014492754" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/activity_nguyenhongquan_thembophan.xml" value="0.2807971014492754" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/activity_nguyenhongquan_themnhanvien.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/activity_nguyenhongquan_thongtinnv.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/dialog_xoabophan.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/dialog_xoanhanvien.xml" value="0.27445652173913043" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/item_bophan.xml" value="0.2807971014492754" />
         <entry key="..\:/Users/ECO0697-QUANNH/Desktop/app1/app/src/main/res/layout/item_nhanvien.xml" value="0.2807971014492754" />
       </map>
