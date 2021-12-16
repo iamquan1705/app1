@@ -12,13 +12,13 @@ import android.widget.Toast;
 import com.NguyenHongQuan.qlns.MainActivity;
 import com.NguyenHongQuan.qlns.R;
 
-public class Nguyenhongquan_ActitivityDangnhap extends AppCompatActivity {
+public class Nguyenhongquan_ActivityDangnhap extends AppCompatActivity {
     private EditText edtPass,edtUser;
     private Button btnLogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nguyenhongquan_actitivity_dangnhap);
+        setContentView(R.layout.activity_nguyenhongquan__dangnhap);
 
         edtPass = findViewById(R.id.edtPass);
         edtUser = findViewById(R.id.edtUser);
@@ -28,12 +28,12 @@ public class Nguyenhongquan_ActitivityDangnhap extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if ((edtUser.getText().toString().isEmpty()) && (edtUser.getText().toString().isEmpty())) {
-                    Toast.makeText(Nguyenhongquan_ActitivityDangnhap.this, "Bạn chưa nhập tên hoặc mật khẩu", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Nguyenhongquan_ActivityDangnhap.this, "Bạn chưa nhập tên hoặc mật khẩu", Toast.LENGTH_SHORT).show();
                 } else if ((edtUser.getText().toString().equals("iamquan1705")) && (edtPass.getText().toString().equals("Quan170520"))) {
-                    Intent inte = new Intent(Nguyenhongquan_ActitivityDangnhap.this, MainActivity.class);
+                    Intent inte = new Intent(Nguyenhongquan_ActivityDangnhap.this, MainActivity.class);
                     startActivity(inte);
                 } else {
-                    Toast.makeText(Nguyenhongquan_ActitivityDangnhap.this, "Tên hoặc mật khẩu không đúng", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Nguyenhongquan_ActivityDangnhap.this, "Tên hoặc mật khẩu không đúng", Toast.LENGTH_SHORT).show();
                 }
             }
         });

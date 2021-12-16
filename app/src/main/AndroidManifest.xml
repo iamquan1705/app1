@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QLNhanSu">
         <activity
-            android:name=".activity.Nguyenhongquan_ActitivityDangnhap"
+            android:name=".activity.Nguyenhongquan_ActivityDangnhap"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
